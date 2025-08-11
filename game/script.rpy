@@ -1,33 +1,28 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
-# The game starts here.
+﻿
+define e = Character("Me")
+define d = Character("Mister Detective")
+define r = Character("Reporter")
 
 label start:
+    scene tv room
+    with fade
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    # line 1
 
-    scene bg room
+    # line 2
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    e ""
 
-    show eileen happy
+    e ""
 
-    # These display lines of dialogue.
+    scene book room
+    with fade
 
-    e "You've created a new Ren'Py game."
+    r ""
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    d ""
 
-    # This ends the game.
+    d ""
 
-    return
+    scene mountain
+    with fade 
