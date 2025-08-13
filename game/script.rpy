@@ -28,7 +28,9 @@ label start:
 
     d "If they're able to imitate my book to this point, they're probably a super fan."
 
-    d "It's kinda fun actually."
+    d "It's kinda fun actually, to think they like me this much."
 
     scene mountain
     with fade 
+
+    "Strolling through the riverside, you came across the infamous author."
