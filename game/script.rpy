@@ -58,7 +58,7 @@ label start:
     menu :
         d "Yeah sure, let's take a walk at the riverside while talking."
         "Thanks, let's go!":
-            #block of code to run
+            jump riverside
         "Oh, I actually have somewhere to be.":
-            #block of code to run
+            jump go home
         
