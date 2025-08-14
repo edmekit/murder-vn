@@ -60,5 +60,13 @@ label start:
         "Thanks, let's go!":
             jump riverside
         "Oh, I actually have somewhere to be.":
-            jump go home
+            jump go_home
+
+
+label riverside:
+
+
+
+
+label go_home:
         
