@@ -17,7 +17,7 @@ label start:
 
     e "Is the killer reading the same book as me and they're trying to reenact each of the murder case in the book?"
 
-    e "If I remember right, the next would be in the riverside. I'll check it out nothing bas will happen right?"
+    e "If I remember right, the next would be in the riverside. I'll check it out nothing bad will happen right?"
 
     scene book room
     with fade
@@ -34,3 +34,31 @@ label start:
     with fade 
 
     "Strolling through the riverside, you came across the infamous author."
+
+    e "Huh? Thats's the author of my favorite book!"
+
+    e "I'll go say hi."
+
+    e "Hi mister! I just want to say I'm a super fan of your works."
+
+    e "I love how each story is detailed and doesn't miss anything!"
+
+    d "Oh, thank you. What's your favorite one?"
+
+    e "That's hard but if I had to choose, I guess probably the one that similar to the killings right now."
+
+    e "Oh! Don't worry, I know you're not the suspect."
+
+    d "Thanks, kid. Everyones been accusing me of stuff I didn't do."
+
+    e "No problem!, is it fine to ask for some advice? I'm trying to write a story like yours!"
+
+    
+
+    menu :
+        d "Yeah sure, let's take a walk at the riverside while talking."
+        "Thanks, let's go!":
+            #block of code to run
+        "Oh, I actually have somewhere to be.":
+            #block of code to run
+        
