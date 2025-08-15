@@ -1,4 +1,4 @@
-﻿
+
 define e = Character("Me")
 define d = Character("Mister Detective")
 define r = Character("Reporter")
@@ -13,6 +13,8 @@ label start:
 
     "Police says that they are doing their best to solve this case."
 
+    show ed shocked
+
     e "WHAT. THE. HELL. It's exactly like how my favorite book goes."
 
     e "Is the killer reading the same book as me and they're trying to reenact each of the murder case in the book?"
@@ -22,11 +24,15 @@ label start:
     scene book room
     with fade
 
+    show normal author
+
     r "Following the eerie similarities of the recent killings, the police have started to look for clues surrounding you."
 
     r "What do you have to say to the people throwing allegations at you?"
 
     d "If they're able to imitate my book to this point, they're probably a super fan."
+
+    show happy author
 
     d "It's kinda fun actually, to think they like me this much."
 
@@ -35,13 +41,19 @@ label start:
 
     "Strolling through the riverside, you came across the infamous author."
 
+    show standing author
+
     e "Huh? Thats's the author of my favorite book!"
 
     e "I'll go say hi."
 
+    show normal author
+
     e "Hi mister! I just want to say I'm a super fan of your works."
 
     e "I love how each story is detailed and doesn't miss anything!"
+
+    show happy author
 
     d "Oh, thank you. What's your favorite one?"
 
